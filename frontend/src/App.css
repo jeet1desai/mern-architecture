@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+.home-main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+}
+
+a{
+    text-decoration: none !important;
+    margin: 10px;
+}
+span.name{
+    margin-right: 10px;
+}
+
+.l-main{
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+}
+
+.l-main>div{
+    margin-bottom: 10px;
+}
+.l-main>a{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.l-main>a>button{
+    width: 100% !important;
+}
